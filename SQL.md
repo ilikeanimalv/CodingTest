@@ -3,10 +3,8 @@
 ## LEVEL 3 헤비 유저가 소유한 장소
 
 ### 문제
-
-![](file://C:\Users\Lee\AppData\Roaming\marktext\images\2022-03-23-22-33-48-image.png?msec=1648042428082)
-
-![](file://C:\Users\Lee\AppData\Roaming\marktext\images\2022-03-23-22-34-01-image.png?msec=1648042441282)
+![헤비 유저가 소유한 장소1](https://user-images.githubusercontent.com/69181105/159736123-ceffb93c-6e14-4b78-8ae4-7ee0c269a55b.png)
+![헤비 유저가 소유한 장소2](https://user-images.githubusercontent.com/69181105/159736133-55659b70-b439-45ad-837c-dc2cfe6e0ceb.png)
 
 ### 문제 요약
 
