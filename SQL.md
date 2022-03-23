@@ -34,4 +34,34 @@ GROUP BY HOST_ID
 HAVING COUNT(*) >= 2);
 ```
 
+### 코드 핵심사항
 
+1. 중첩 서브쿼리의 활용(WHERE절 서브쿼리)
+
+- 단일행 서브쿼리인 경우
+  - 서브쿼리의 수행 결과가 오직 하나의 ROW만을 반환함
+    
+  - 단일행 비교 연산자를 사용(>, >=, <.<=,= 등)
+    
+
+```sql
+# 사원들의 평균 급여보다 더 많은 급여를 받는 사원을 검
+WHERE SAL > (SELECT AVG(SAL) 
+             FROM EMP);
+```
+
+- 다중행 서브쿼리인 경우
+  
+  - 서브쿼리의 수행 결과가 두 건 이상의 데이터를 반환함
+    
+  - 다중행 비교 연산자를 사용(IN, ANY, SOME, ALL, EXISTS 등)
+    
+
+```sql
+# 30번 소속 사원들 중 급여를 가장 많이 받는 사원보다 더 많은 급여를 받는 사람의 이름과 급여를 출력
+SELECT  ENAME, SAL
+  FROM  EMP
+ WHERE  SAL > ALL ( SELECT  SAL
+                      FROM  EMP
+                     WHERE  DEPTNO = 30 );
+```
