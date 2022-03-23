@@ -43,7 +43,7 @@ HAVING COUNT(*) >= 2);
     
 
 ```sql
-# 사원들의 평균 급여보다 더 많은 급여를 받는 사원을 검
+# ex) 사원들의 평균 급여보다 더 많은 급여를 받는 사원을 검
 WHERE SAL > (SELECT AVG(SAL) 
              FROM EMP);
 ```
@@ -56,7 +56,7 @@ WHERE SAL > (SELECT AVG(SAL)
     
 
 ```sql
-# 30번 소속 사원들 중 급여를 가장 많이 받는 사원보다 더 많은 급여를 받는 사람의 이름과 급여를 출력
+# ex) 30번 소속 사원들 중 급여를 가장 많이 받는 사원보다 더 많은 급여를 받는 사람의 이름과 급여를 출력
 SELECT  ENAME, SAL
   FROM  EMP
  WHERE  SAL > ALL ( SELECT  SAL
