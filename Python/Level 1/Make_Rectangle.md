@@ -1,6 +1,8 @@
 # Python 코딩테스트
 
-## 구분 : 코테 Demo Test
+## 코테 Demo Test
+
+## 알고리즘 : 구현
 
 ### 문제
 ![1](https://user-images.githubusercontent.com/69181105/160065864-d41ec131-e41e-4453-89e4-bd636993300f.png)
