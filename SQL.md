@@ -1,6 +1,6 @@
-# 프로그래머스 - SQL 코딩테스트 연습
+# SQL 코딩테스트
 
-## LEVEL 3 헤비 유저가 소유한 장소
+## 구분 : 프로그래머스 - LEVEL 3 - 헤비 유저가 소유한 장소
 
 ### 문제
 ![헤비 유저가 소유한 장소1](https://user-images.githubusercontent.com/69181105/159736123-ceffb93c-6e14-4b78-8ae4-7ee0c269a55b.png)
