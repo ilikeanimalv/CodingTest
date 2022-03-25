@@ -3,10 +3,9 @@
 ## 구분 : 코테 Demo Test
 
 ### 문제
+![1](https://user-images.githubusercontent.com/69181105/160065864-d41ec131-e41e-4453-89e4-bd636993300f.png)
+![2](https://user-images.githubusercontent.com/69181105/160065869-31cc53bd-7ab9-4419-b13d-7bc4f59980a7.png)
 
-![](file://C:\Users\Lee\AppData\Roaming\marktext\images\2022-03-25-15-10-10-image.png?msec=1648188610536)
-
-![](file://C:\Users\Lee\AppData\Roaming\marktext\images\2022-03-25-15-10-37-image.png?msec=1648188637722)
 
 ### 문제 요약
 
